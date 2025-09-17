@@ -79,7 +79,7 @@ document.querySelectorAll('.nav-links li a').forEach(link => {
   });
 });
 
-const serviceBoxes = document.querySelectorAll(".service_box");
+const serviceBoxes = document.querySelectorAll(".service_box , .service_box2 , .serviceimg , .ser1 , .ser2 , .ser3");
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
